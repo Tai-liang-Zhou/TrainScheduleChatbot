@@ -1,0 +1,22 @@
+{
+  "name": "messenger-webhook",
+  "version": "1.0.0",
+  "description": "FB_CHATBOT_WEBHOOK_SERVER",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" &amp;&amp; exit 1",
+    "start": "node index.js"
+  },
+  "author": "tom",
+  "license": "ISC",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "moment": "^2.22.0",
+    "moment-timezone": "^0.5.14",
+    "mongoose": "^5.0.12",
+    "request": "^2.85.0"
+  }
+}
